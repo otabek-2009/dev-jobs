@@ -1,0 +1,85 @@
+/* CUSTOM PROPS */
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap);
+:root {
+    --Violet: #5964E0;
+    --Light-Violet: #939BF4;
+    --Very-Dark-Blue: #19202D;
+    --Midnight: #121721;
+    --White: #fff;
+    --Light-Grey: #F4F6F8;
+    --Grey: #9DAEC2;
+    --Dark-Grey: #6E8098;
+    --Kumbh-font: "Kumbh Sans"
+}
+
+
+/* GLOBAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+body {
+  font-family: var(--Kumbh-font);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/* CONTAINER */
+.container {
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 0 auto;
+}
+
+/* CONTAINER */
+
+
+/* BTN */
+.btn_1 {
+    display: block;
+    padding: 14px 39px;
+    background-color: var(--Violet);
+    color: var(--White);
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    width: max-content;
+}
+.btn_1:hover {
+    background-color: var(--Light-Violet);
+}
+
+.btn_2 {
+    display: block;
+    padding: 16px 39px;
+    background-color: var(--Light-Grey);
+    color: var(--Violet);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    width: max-content;
+    transition: .4s;
+    border: none;
+}
+.btn_2:hover {
+    background-color: var(--Light-Violet);
+    color: var(--Violet);
+}
+/* 
+BTN */
